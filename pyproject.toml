@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "usburninator"
 version = "0.1.0"
-description = ""
+description = "balena etcher-style tui for flashing os images to usb disks"
 authors = ["Alex Cline <rev.a.r.cline@gmail.com>"]
 readme = "README.md"
 
@@ -10,6 +10,8 @@ python = "^3.11"
 textual = "^0.33.0"
 httpx = "^0.24.1"
 
+[tool.poetry.scripts]
+usburninator = "usburninator.app:start"
 
 [build-system]
 requires = ["poetry-core"]
