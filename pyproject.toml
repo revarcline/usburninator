@@ -12,6 +12,7 @@ httpx = "^0.24.1"
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^7.4.0"
+pytest-mock = "^3.11.1"
 
 [tool.poetry.scripts]
 usburninator = "usburninator.app:start"
